@@ -8,51 +8,45 @@
 ## Project setup
 
 ```
-pnpm install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
-pnpm run serve
+npm run serve
 ```
 
 ### Compiles and minifies for production
 
 ```
-pnpm run build
+npm run build
 ```
 
-### Run your unit tests
+## Run your unit tests
 
 ```
-pnpm run test:unit
+npm run test:unit
 ```
 
-### Run your end-to-end tests
+## Run your end-to-end tests
 
 **UI Mode**
 
 ```
-pnpm run test:e2e
-```
-
-OR
-
-```
-pnpm run test:unit calculator.spec
+npm run test:e2e
 ```
 
 **Headless mode**
 
 ```
-pnpm run test:e2e -- --headless
+npm run test:e2e -- --headless
 ```
 
 ### Lints and fixes files
 
 ```
-pnpm run lint
+npm run lint
 ```
 
 ## **Result of running tests:**
@@ -62,7 +56,7 @@ pnpm run lint
    - Run command:
 
      ```
-     pnpm run test:unit
+     npm run test:unit
      ```
 
      ![Unit testing](/images/0-unit-testing.png)
@@ -74,7 +68,7 @@ pnpm run lint
      - Run command:
 
        ```
-       pnpm run test:e2e
+       npm run test:e2e
        ```
 
        ![Cypress UI](/images/1-ui-mode.png)
@@ -90,7 +84,7 @@ pnpm run lint
      - Run command:
 
        ```
-       pnpm run test:e2e -- --headless
+       npm run test:e2e -- --headless
        ```
 
        # ![Cypress UI](/images/3-headless-result-1.png)
